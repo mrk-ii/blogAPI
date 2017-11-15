@@ -1,4 +1,5 @@
-'use strict'
+'use strict';
+
 const uuid = require('uuid');
 
 // this module provides volatile storage, using a `BlogPost`
@@ -12,8 +13,8 @@ const uuid = require('uuid');
 
 
 function StorageException(message) {
-   this.message = message;
-   this.name = "StorageException";
+  this.message = message;
+  this.name = "StorageException";
 }
 
 const BlogPosts = {
